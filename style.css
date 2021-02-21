@@ -1,0 +1,72 @@
+html body #MAIN {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+body {
+  font-family: 'Jost', sans-serif;
+  letter-spacing: 4px;
+  color: #171A1F;
+  background-color: #D9D4C5;
+}
+
+.navbar {
+  display: inline-block;
+  font-size: 14px;
+}
+
+
+#websitename {
+  margin-left: 16px;
+  margin-right: 600px;
+
+  font-size: 32px;
+  letter-spacing: 8px;
+
+  position: relative;
+  top: 4px;
+}
+
+a {
+  color: #171A1F
+}
+
+a.link {
+  text-decoration: none;
+}
+
+a.hover {
+  color: #BFB8B0;
+}
+
+#content {
+  height: 1400px;
+  margin-top: 60px;
+  margin-left: 180px;
+  margin-right: 180px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.p {
+  margin-bottom: 40px;
+}
+
+#credit {
+  margin-top: 48px;
+}
+
+#footer {
+  text-align: center;
+  font-size: 14px;
+
+  border-top: 2px solid #171A1F;
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
