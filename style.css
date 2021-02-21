@@ -9,6 +9,7 @@ body {
   letter-spacing: 4px;
   color: #171A1F;
   background-color: #D9D4C5;
+  width: 1350px;
 }
 
 .navbar {
@@ -19,7 +20,7 @@ body {
 
 #websitename {
   margin-left: 16px;
-  margin-right: 600px;
+  margin-right: 612px;
 
   font-size: 32px;
   letter-spacing: 8px;
@@ -32,13 +33,13 @@ a {
   color: #171A1F
 }
 
-a.link {
+/* a.link {
   text-decoration: none;
 }
 
 a.hover {
   color: #BFB8B0;
-}
+} */
 
 #content {
   height: 1400px;
