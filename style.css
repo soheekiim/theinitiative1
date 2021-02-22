@@ -15,12 +15,13 @@ body {
 .navbar {
   display: inline-block;
   font-size: 14px;
+  word-spacing: 4px;
 }
 
 
 #websitename {
   margin-left: 16px;
-  margin-right: 612px;
+  margin-right: 596px;
 
   font-size: 32px;
   letter-spacing: 8px;
@@ -33,13 +34,18 @@ a {
   color: #171A1F
 }
 
-/* a.link {
+.tab:hover {
+  color: #BFB8B0;
+}
+
+.tab:link {
   text-decoration: none;
 }
 
-a.hover {
-  color: #BFB8B0;
-} */
+#active {
+  padding-bottom: 4px;
+  border-bottom: 1px solid #171A1F;
+}
 
 #content {
   height: 1400px;
@@ -67,7 +73,7 @@ h1 {
   text-align: center;
   font-size: 14px;
 
-  border-top: 2px solid #171A1F;
+  border-top: 1px solid #171A1F;
   padding-top: 10px;
   padding-bottom: 2px;
 }
